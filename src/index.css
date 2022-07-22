@@ -1,13 +1,167 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background-color: black;
+    margin:0;
+    margin-left:0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.divslist{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:30px;
+    
+}
+
+.div1 , .div2{
+    background-color: #23252C;
+    
+    min-width:350px;
+    min-height: 550px;
+    color : white;
+    padding:40px 60px;
+    display:flex;
+    justify-content: center;
+    
+}
+/* .div2{
+    color:white;
+    min-width:320px;
+    min-height: 500px;
+    background-color: #191D22;
+} */
+
+.div1child , .div2child{
+    min-height:fit-content;
+    /* background-color:#1A1B21; */
+    ;
+    border-radius: 10px;
+    width:min-content;
+    text-align: center;
+    
+}
+
+.pic1{
+    width :260px;
+    height:260px;
+    border-radius: 10px 10px 0px 0px;
+}
+.name{
+    font-weight:600;
+    font-size:23px;
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    margin-top:10px;
+}
+.role{
+    font-family: 'Inter', sans-serif;
+    font-weight:400;
+    color: #F3BF99;
+    margin-top: 0px;
+    margin-bottom:0px;
+    padding: 0px;
+    font-size: 12px;
+}
+.website{
+    font-family: 'Inter', sans-serif;
+    font-weight:400;
+    font-size:10.5px;
+    margin: 10px;
+    padding: 0px;
+}
+.buttons1{
+    margin-top:15px;
+    display:flex;
+    justify-content: center;
+}
+.emailbutton{
+    margin-right:10px;
+    width:33%;
+    border-radius: 7px;
+    border: 1px solid #D1D5DB;
+    font-weight: 500;
+    font-size: 11.5px;
+    font-family: 'Inter', sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.emailbutton2{
+    width:75%;
+    padding:5px 0px 5px 0px;
+    border-radius: 7px;
+    border: 1px solid #D1D5DB;
+    font-weight: 500;
+    font-size: 11.5px;
+    font-family: 'Inter', sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.linkedinbutton{
+    width:33%;
+    padding:5px 0px 5px 0px;
+    border-radius: 7px;
+    background-color: #5093E2;
+    font-weight: 500;
+    font-size: 11.5px;
+    font-family: 'Inter', sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color:white;
+    border: 1px solid #5093E2;
+}
+.icons{
+    width:11.5px;
+    margin-right:5px;
+}
+.divtest1, .divtest2{
+    background-color:#1A1B21;
+    border-radius: 10px;
+    max-width:260px;
+}
+.abouthead{
+    font-family: 'Inter', sans-serif;
+    font-size: 13.5px;
+    margin:20px 12px 5px 17px;
+}
+.aboutcontent{
+    max-width: 225px;
+    font-family: 'Inter', sans-serif;
+    font-size: 9px;
+    margin:0px 12px 0px 17px;
+}
+.interestshead{
+    font-family: 'Inter', sans-serif;
+    font-size: 13.5px;
+    margin:20px 12px 5px 17px;
+}
+.interestscontent{
+    max-width: 225px;
+    font-family: 'Inter', sans-serif;
+    font-size: 9px;
+    margin:0px 12px 0px 17px;
+}
+.footer1{
+    margin-top: 20px;
+    min-height: 43px;
+    background-color: black;
+    border-radius: 0px 0px 10px 10px;
+    margin-left: 0px;
+    /* display:flex;
+    align-items: center; */
+    
+}
+.footericons{
+    padding-top: 10px;
+    margin-left: -30px;
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.iconfooter{
+    width:22px;
+    opacity : 0.6;
 }
